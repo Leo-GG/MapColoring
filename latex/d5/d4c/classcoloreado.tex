@@ -1,0 +1,151 @@
+\hypertarget{classcoloreado}{\section{coloreado \-Class \-Reference}
+\label{d5/d4c/classcoloreado}\index{coloreado@{coloreado}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcoloreado_af63698cc2cfe6b813473199221baeeec}{coloreado} (boolean\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} graph, int num\-Colors, boolean trace, \-String output\-File)
+\item 
+void \hyperlink{classcoloreado_a7117ad010bc6cb9b592d00cbbd8b8977}{color\-Node} (int node, int max\-Colors)
+\item 
+boolean \hyperlink{classcoloreado_acd263f80e8310e80f61a43e3c4a40cb3}{check\-Valid} (int node, int color)
+\item 
+void \hyperlink{classcoloreado_a0ab45c00fcf1741918e4b0d2e8d487d9}{print\-Colors} ()
+\item 
+void \hyperlink{classcoloreado_a2c76a54d3256e21e5b2512439b55fb4f}{print\-Graph} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcoloreado_a3faec805903e83d479bac047451e52c4}{main} (\-String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{\-Package \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcoloreado_a7656ce22bf1511f70455dd86f3f73f38}{int {\bfseries num\-Nodes\-\_\-}}\label{d5/d4c/classcoloreado_a7656ce22bf1511f70455dd86f3f73f38}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Clase que contiene los métodos para colorear el grafo y generar los datos de salida 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classcoloreado_af63698cc2cfe6b813473199221baeeec}{\index{coloreado@{coloreado}!coloreado@{coloreado}}
+\index{coloreado@{coloreado}!coloreado@{coloreado}}
+\subsubsection[{coloreado}]{\setlength{\rightskip}{0pt plus 5cm}{\bf coloreado.\-coloreado} (
+\begin{DoxyParamCaption}
+\item[{boolean}]{graph\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{num\-Colors, }
+\item[{boolean}]{trace, }
+\item[{\-String}]{output\-File}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{d5/d4c/classcoloreado_af63698cc2cfe6b813473199221baeeec}
+\-Constructor 
+\begin{DoxyParams}{\-Parameters}
+{\em graph} & \-La matriz de adyacencia del grafo \\
+\hline
+{\em num\-Colors} & \-El numero maximo de colores que se pueden usar \\
+\hline
+{\em trace} & \-El estado de la opcion traza \\
+\hline
+{\em output\-File} & \-El nombre del archivo de salida \\
+\hline
+\end{DoxyParams}
+
+
+\-Here is the call graph for this function\-:
+
+
+
+
+\-Here is the caller graph for this function\-:
+
+
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classcoloreado_acd263f80e8310e80f61a43e3c4a40cb3}{\index{coloreado@{coloreado}!check\-Valid@{check\-Valid}}
+\index{check\-Valid@{check\-Valid}!coloreado@{coloreado}}
+\subsubsection[{check\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf coloreado.\-check\-Valid} (
+\begin{DoxyParamCaption}
+\item[{int}]{node, }
+\item[{int}]{color}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{d5/d4c/classcoloreado_acd263f80e8310e80f61a43e3c4a40cb3}
+\-Comprueba si un nodo dado puede colorearse con un color específico o si por el contrario el nodo esta conectado a otro que ya tiene asignado ese color. 
+\begin{DoxyParams}{\-Parameters}
+{\em node} & \-Nodo a comprobar \\
+\hline
+{\em color} & \-Color a comprobar \\
+\hline
+\end{DoxyParams}
+
+
+\-Here is the caller graph for this function\-:
+
+
+\hypertarget{classcoloreado_a7117ad010bc6cb9b592d00cbbd8b8977}{\index{coloreado@{coloreado}!color\-Node@{color\-Node}}
+\index{color\-Node@{color\-Node}!coloreado@{coloreado}}
+\subsubsection[{color\-Node}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf coloreado.\-color\-Node} (
+\begin{DoxyParamCaption}
+\item[{int}]{node, }
+\item[{int}]{max\-Colors}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{d5/d4c/classcoloreado_a7117ad010bc6cb9b592d00cbbd8b8977}
+\-Verifica si es posible colorear el nodo indicado con el primer color de la lista. \-Si no es posible pasa al siguiente. \-Al encontrar una opción válida hace una llamada recursiva con el siguiente nodo. \-Si no es posible colorear i+1, se le asigna el siguiente color de la lista a i. \-El bucle acaba cuando o bien se han coloreado todos los nodos o se han agotado las posibles combinaciones de colores (sin haber alcanzado el nodo final). 
+\begin{DoxyParams}{\-Parameters}
+{\em node} & \-Nodo a colorear \\
+\hline
+\end{DoxyParams}
+
+
+\-Here is the call graph for this function\-:
+
+
+
+
+\-Here is the caller graph for this function\-:
+
+
+\hypertarget{classcoloreado_a3faec805903e83d479bac047451e52c4}{\index{coloreado@{coloreado}!main@{main}}
+\index{main@{main}!coloreado@{coloreado}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void {\bf coloreado.\-main} (
+\begin{DoxyParamCaption}
+\item[{\-String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, static\mbox{]}}}}\label{d5/d4c/classcoloreado_a3faec805903e83d479bac047451e52c4}
+\-Programa principal. \-Crea una instancia del lector de datos de entrada, con los argumentos del programa y recibe de este el grafo problema, el numero de colores y el valor de la opción traza. \-Crea un objeto coloreado con los datos de entrada que resuelve el problema con los parámetros dados. 
+\begin{DoxyParams}{\-Parameters}
+{\em args} & \-Argumentos con los que se ha ejecutado el programa \\
+\hline
+\end{DoxyParams}
+
+
+\-Here is the call graph for this function\-:
+
+
+\hypertarget{classcoloreado_a0ab45c00fcf1741918e4b0d2e8d487d9}{\index{coloreado@{coloreado}!print\-Colors@{print\-Colors}}
+\index{print\-Colors@{print\-Colors}!coloreado@{coloreado}}
+\subsubsection[{print\-Colors}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf coloreado.\-print\-Colors} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{d5/d4c/classcoloreado_a0ab45c00fcf1741918e4b0d2e8d487d9}
+\-Imprime la lista de nodos y el color que cada uno tiene asignado. 
+
+\-Here is the caller graph for this function\-:
+
+
+\hypertarget{classcoloreado_a2c76a54d3256e21e5b2512439b55fb4f}{\index{coloreado@{coloreado}!print\-Graph@{print\-Graph}}
+\index{print\-Graph@{print\-Graph}!coloreado@{coloreado}}
+\subsubsection[{print\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf coloreado.\-print\-Graph} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{d5/d4c/classcoloreado_a2c76a54d3256e21e5b2512439b55fb4f}
+\-Imprime el grafo problema. 
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{coloreado_8java}{coloreado.\-java}\end{DoxyCompactItemize}

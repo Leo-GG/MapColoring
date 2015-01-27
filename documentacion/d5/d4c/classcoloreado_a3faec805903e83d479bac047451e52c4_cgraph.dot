@@ -1,0 +1,24 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="coloreado.main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="InputHandler.getGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/df6/classInputHandler.html#a008131f31d9d60ce0bf68322f722198f"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="InputHandler.getNumColors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/df6/classInputHandler.html#ad85a4df4b9daaa106ce6fc84fa31e4e7"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="InputHandler.getTrace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/df6/classInputHandler.html#ae91026c105b48ae87859d8b4659f0bdd"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="InputHandler.getOutFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/df6/classInputHandler.html#a44c0174e8603ccbbce48981ed5d1a229"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="coloreado.coloreado",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d4c/classcoloreado.html#af63698cc2cfe6b813473199221baeeec"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="coloreado.colorNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d4c/classcoloreado.html#a7117ad010bc6cb9b592d00cbbd8b8977"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="coloreado.checkValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d4c/classcoloreado.html#acd263f80e8310e80f61a43e3c4a40cb3"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="coloreado.printColors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d4c/classcoloreado.html#a0ab45c00fcf1741918e4b0d2e8d487d9"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

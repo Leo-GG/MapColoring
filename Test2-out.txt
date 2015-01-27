@@ -1,0 +1,381 @@
+Traza:
+1 amarillo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 amarillo
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 verde
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 rojo
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 rojo
+3 verde
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 rojo
+3 verde
+4 amarillo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 rojo
+3 verde
+4 rojo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 amarillo
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 amarillo
+3 rojo
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 amarillo
+3 rojo
+4 amarillo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 amarillo
+3 rojo
+4 verde
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 rojo
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 rojo
+3 amarillo
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 rojo
+3 amarillo
+4 verde
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 verde
+2 rojo
+3 amarillo
+4 rojo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 amarillo
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 amarillo
+3 verde
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 amarillo
+3 verde
+4 amarillo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 amarillo
+3 verde
+4 rojo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 verde
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 verde
+3 amarillo
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 verde
+3 amarillo
+4 verde
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 rojo
+2 verde
+3 amarillo
+4 rojo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 ninguno
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 ninguno
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 azul
+6 ninguno
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 azul
+6 verde
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 azul
+6 azul
+7 ninguno
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 azul
+6 azul
+7 verde
+8 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 azul
+6 azul
+7 verde
+8 amarillo
+
+Fin de traza
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 azul
+6 azul
+7 verde
+8 amarillo
+

@@ -1,0 +1,14 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="coloreado.printColors",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="coloreado.coloreado",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d4c/classcoloreado.html#af63698cc2cfe6b813473199221baeeec"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="coloreado.main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d4c/classcoloreado.html#a3faec805903e83d479bac047451e52c4"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="coloreado.colorNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d4c/classcoloreado.html#a7117ad010bc6cb9b592d00cbbd8b8977"];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

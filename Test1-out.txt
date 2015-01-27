@@ -1,0 +1,87 @@
+Traza:
+1 amarillo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 amarillo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 amarillo
+2 verde
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 verde
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 verde
+2 amarillo
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 amarillo
+2 ninguno
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 amarillo
+2 verde
+3 ninguno
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 ninguno
+5 ninguno
+6 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 ninguno
+6 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 rojo
+6 ninguno
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 rojo
+6 amarillo
+
+Fin de traza
+
+1 amarillo
+2 verde
+3 rojo
+4 amarillo
+5 rojo
+6 amarillo
+
